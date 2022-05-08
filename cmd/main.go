@@ -28,7 +28,7 @@ func main() {
 		config.WithRegion("us-east-1"),
 		config.WithCredentialsProvider(credentials.StaticCredentialsProvider{
 			Value: aws.Credentials{
-				AccessKeyID: "AKIATRXOFVWKQF3YSU6J", SecretAccessKey: "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",
+				AccessKeyID: "", SecretAccessKey: "",
 				Source: "Hard-coded credentials; values are irrelevant for local DynamoDB",
 			},
 		}),
